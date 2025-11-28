@@ -1,0 +1,8 @@
+{
+  "name": "LLM Analysis Quiz Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [5000],
+  "postCreateCommand": "pip install -r requirements.txt && python -m playwright install chromium"
+}
