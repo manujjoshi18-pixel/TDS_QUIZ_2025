@@ -1,0 +1,8 @@
+flask
+requests
+pandas
+pdfplumber
+playwright
+pyngrok
+beautifulsoup4
+lxml
